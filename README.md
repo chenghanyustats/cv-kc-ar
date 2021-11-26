@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # cv-kc-ar
 
 This repository contains relevant R code for implementing the MCMC algorithm (CV-KC-AR) of the Bayesian Spatiotemporal Model for complex-valued task-based fMRI data (CV-fMRI). The proposed spatiotemporal model combines Bayesian variable selection tools, a spatial kernel convolution structure, and autoregressive processes for detecting a subject's brain activation at the voxel level in complex-valued fMRI (CV-fMRI) data. The model leads to more accurate posterior probability activation maps and less false positives than alternative spatial approaches based on Gaussian process models, and other complex-valued models that do not incorporate spatial and/or temporal structure. For more details about CV-KC-AR model and algorithm, please read the paper [Yu et al. (2022). Bayesian Spatiotemporal Modeling on Complex-valued fMRI Signals via Kernel Convolutions]()
